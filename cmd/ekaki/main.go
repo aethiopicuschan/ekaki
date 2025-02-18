@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime/debug"
 
-	"github.com/aethiopicuschan/ekaki"
+	"github.com/aethiopicuschan/ekaki/pkg/ekaki"
 	"github.com/spf13/cobra"
 )
 

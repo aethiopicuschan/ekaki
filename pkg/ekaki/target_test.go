@@ -3,7 +3,7 @@ package ekaki_test
 import (
 	"testing"
 
-	"github.com/aethiopicuschan/ekaki"
+	"github.com/aethiopicuschan/ekaki/pkg/ekaki"
 	"github.com/stretchr/testify/require"
 )
 

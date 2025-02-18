@@ -19,7 +19,7 @@ ekaki input.png output.jpg
 As a library:
 
 ```sh
-go get -u github.com/aethiopicuschan/ekaki
+go get -u github.com/aethiopicuschan/ekaki/pkg/ekaki
 ```
 
 ## Supported formats
