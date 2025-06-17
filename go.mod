@@ -3,7 +3,7 @@ module github.com/aethiopicuschan/ekaki
 go 1.23.4
 
 require (
-	github.com/chai2010/webp v1.1.1
+	github.com/chai2010/webp v1.4.0
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/image v0.23.0
