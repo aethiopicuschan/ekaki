@@ -31,6 +31,8 @@ go get -u github.com/aethiopicuschan/ekaki/pkg/ekaki
 - webp
 - tiff
 
+Animated WebP inputs are decoded as their first frame.
+
 ### TODO
 
 - [ ] Conversion while maintaining GIF and WebP animations

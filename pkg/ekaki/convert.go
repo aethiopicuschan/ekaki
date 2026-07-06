@@ -7,7 +7,7 @@ import (
 	"image/png"
 	"io"
 
-	"github.com/chai2010/webp"
+	"github.com/gen2brain/webp"
 	"golang.org/x/image/bmp"
 	"golang.org/x/image/tiff"
 )
@@ -32,7 +32,7 @@ func Convert(source io.Reader, target Target) (output []byte, err error) {
 	case TargetGIF:
 		err = gif.Encode(&buf, img, nil)
 	case TargetWebp:
-		err = webp.Encode(&buf, img, nil)
+		err = webp.Encode(&buf, img)
 	case TargetTiff:
 		err = tiff.Encode(&buf, img, nil)
 	default:
