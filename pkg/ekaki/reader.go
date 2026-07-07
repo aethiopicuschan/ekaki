@@ -40,6 +40,12 @@ func ImageFrom(img io.Reader) (i image.Image, t Target, err error) {
 			t = TargetPNG
 		case "gif":
 			t = TargetGIF
+		case "bmp":
+			t = TargetBMP
+		case "tiff":
+			t = TargetTiff
+		case "webp":
+			t = TargetWebp
 		default:
 			err = ErrUnsupported
 			return
